@@ -3,7 +3,7 @@ var events = require('events')
 var url = require('url')
 var crypto = require('crypto')
 
-export default function (opts) {
+module.exports = function (opts) {
 
     if (!opts.callbackURI) opts.callbackURI = '/github/callback'
 
