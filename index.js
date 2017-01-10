@@ -1,8 +1,7 @@
-import request from 'request'
-import events from 'events'
-import url from 'url'
-import crypto from 'crypto'
-
+var request = require('request')
+var events = require('events')
+var url = require('url')
+var crypto = require('crypto')
 
 export default function (opts) {
 
